@@ -1,0 +1,29 @@
+body{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.linea{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.celda{
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+    font-size: 50px;
+    min-width: 80px;
+    max-width: 80px;
+    min-height: 80px;
+    max-height: 80px;
+    border-radius: 50%;
+}
+
+.jugadores{
+    display: flex;
+    justify-content: center;
+}
