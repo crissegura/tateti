@@ -15,7 +15,7 @@ const b9=document.getElementById('b9')
 document.querySelectorAll('button').forEach((c)=>c.onclick=()=>{
     turno++
     turno%2?c.textContent = jugador1:c.textContent = jugador2
-    setTimeout(ganador,0.5)
+    setTimeout(ganador,1000)
 })
 
 const ganador=()=>{
