@@ -5,6 +5,10 @@ body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+.titulo{
+    margin-top: 20px;
+}
+
 .linea{
     display: flex;
     justify-content: center;
